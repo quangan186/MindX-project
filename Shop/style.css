@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #5089C6;
+    font-family: 'Iceland', cursive;
+    color: white;
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    /* display: grid;
+    grid-template-columns: 0.2fr 0.6fr 0.4fr; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav{
+    text-align: left;
+} 
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+   
+}
+
+.navbar ul li{
+    margin: 15px 10px;
+    padding: 12px;
+    
+}
+
+.navbar ul li a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+    color: white;
+    font-size: 24px;
+}
+
+.btn{
+    display: flex;
+    
+}
+
+.btn a{
+    margin: 15px 10px;
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+.logo{
+    width: 300px;
+    height: 180px;
+}
+.logo img{
+    width: 300px;
+    height: 180px;
+    cursor: pointer;
+}
+
+.nav a:after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: white;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+  }
+  
+  .nav a:hover{
+    color: #DCDCDC;
+  }
+  .nav a:hover:after{
+    width: 100%;
+  
+  }

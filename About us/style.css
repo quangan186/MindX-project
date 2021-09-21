@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #5089C6;
+    font-family: 'Iceland', cursive;
+    color: white;
+    width: 100%;
+    height: 90vh;
+}
+.navbar{
+    /* display: grid;
+    grid-template-columns: 0.2fr 0.6fr 0.4fr; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav{
+    text-align: left;
+} 
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+   
+}
+
+.navbar ul li{
+    margin: 15px 10px;
+    padding: 12px;
+    
+}
+
+.navbar ul li a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+    color: white;
+    font-size: 24px;
+}
+
+.btn{
+    display: flex;
+    float: left;
+}
+
+.btn a{
+    margin: 15px 10px;
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+.logo{
+    width: 300px;
+    height: 180px;
+}
+.logo img{
+    width: 300px;
+    height: 180px;
+    cursor: pointer;
+}
+
+#gif {
+    width: 80%;
+    height: 400px;
+    margin-left: 100px;
+    top: 0;
+    /* padding-bottom: 50px; */
+    float: left;
+}
+
+#gif img {
+    width: 400px;
+    height: 400px;
+}
+.content {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.info{
+    width: 170vw;
+}
+
+.info h1{
+    font-size: 52px;
+    text-align: center;
+    width: 850px;
+}
+
+.info h2{
+    padding: 20px 0;
+    font-size: 42px;
+    width: 850px;
+}
+
+.info p{
+    font-size: 24px;
+    width: 850px;
+    line-height: 2;
+}
+
+.fab{
+    width: 100px;
+    height: 100px;
+}
+
+.fa-facebook {
+    background: none;
+    color: white;
+    margin-top: 20px;
+    font-size: 48px;
+    text-decoration: none;
+}
+
+.fa-facebook:active{
+    opacity: 0.8;
+}
+
+.fa-instagram{
+    background: none;
+    color: white;
+    margin-top: 20px;
+    font-size: 48px;
+    text-decoration: none;
+}
+
+.fa-instagram:active{
+    opacity: 0.8;
+}
+
+.footer{
+    left: 0;
+    bottom: 0;
+    width: auto;
+    background-color: black;
+    font-family: 'Iceland', cursive;
+    color: white;
+    text-align: left;
+    margin-top: 50px;
+    font-size: 28px;
+    padding-left: 30px;
+    height: 17vh;
+}
+
+.footer p{
+    align-items: center;
+    padding-top: 50px;
+}
+
+.nav a:after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: white;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+  }
+  
+  .nav a:hover{
+    color: #DCDCDC;
+  }
+  .nav a:hover:after{
+    width: 100%;
+  
+  }
