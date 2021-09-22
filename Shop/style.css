@@ -87,3 +87,74 @@ body{
     width: 100%;
   
   }
+
+
+.item{
+    background-color: black;
+    width: 600px;
+    height: auto;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.item img{
+    width: 600px;
+    height: 302px;
+}
+
+.info{
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.info h1{
+    font-size: 32px;
+    text-align: left;
+}
+.info p{
+    font-size: 32px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.item button{
+    margin-top: 30px ;
+    width: 80%;
+    height: 40px;
+    font-family: 'Iceland', cursive;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 24px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.item button:active{
+    opacity: 0.8;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 10px;
+}
+
+.footer{
+    left: 0;
+    bottom: 0;
+    width: auto;
+    background-color: black;
+    font-family: 'Iceland', cursive;
+    color: white;
+    text-align: left;
+    margin-top: 50px;
+    font-size: 28px;
+    padding-left: 30px;
+    height: 15vh;
+}
+
+.footer p{
+    align-items: center;
+    padding-top: 45px;
+}
