@@ -92,7 +92,7 @@ body{
 .item{
     background-color: black;
     width: 600px;
-    height: auto;
+    height: 448px;
     margin-left: 100px;
     text-align: center;
 }
@@ -157,4 +157,23 @@ body{
 .footer p{
     align-items: center;
     padding-top: 45px;
+}
+
+.btn span{
+    padding-left: 10px;
+}
+
+.new_btn{
+    display: flex;
+    margin-top: 30px ;
+    width: 80%;
+    height: 40px;
+    font-family: 'Iceland', cursive;
+    margin-left: 60px;
+    letter-spacing: 2px;
+    background-color:  gray;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 24px;
 }
