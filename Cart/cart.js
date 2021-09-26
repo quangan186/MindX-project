@@ -29,9 +29,28 @@ function displayItems(){
                 <h1 class = "basketPrice">
                 ${new Intl.NumberFormat().format(cartCost)} VND
             </div>
+
+            <div class="payment_btn">
+                <button class="pay_btn">Payment</button>
+            </div>
             `
-       
+
+    }
+}
+
+function btnFunction(){
+    let homeBtn = document.querySelector(".home_btn")
+    homeBtn.addEventListener('click', homeBtnFunction)
+    function homeBtnFunction(){
+        window.location.href = "../index.html"
+    }
+
+    let btn = document.querySelector(".pay_btn")
+    btn.addEventListener('click', myFunction)
+    function myFunction(){
+        window.location.href = "../Bill/notification.html"
     }
 }
 
 displayItems();
+btnFunction();

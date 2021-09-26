@@ -32,7 +32,7 @@ body{
 input[type = "text"], input[type=password]{
     width: 90%;
     padding: 12px 10px;
-    margin: 8px 0;
+    /* margin: 8px 0; */
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
@@ -61,7 +61,7 @@ input[type="checkbox" i] {
     cursor: default;
     appearance: auto;
     box-sizing: border-box;
-    margin: 3px 3px 3px 4px;
+    margin: 3px 3px 12px 4px;
     padding: initial;
     border: initial;
     margin-left: 35px ;
@@ -75,6 +75,7 @@ input[type="checkbox" i] {
     text-align: center;
     width: 90%;
     margin-left: 35px;
+    
 }
 
 .remember_btn a{

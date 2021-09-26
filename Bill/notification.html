@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shop</title>
+    <title>Cart</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="navbar">
+    <!-- <div class="navbar">
         <div class="logo">
-            <img src="https://api.freelogodesign.org/files/5af3c56096c14645b3dc33ccb1645b45/thumb/logo_200x200.png?v=637682602020000000" alt="" class="home_btn">
+            <img src="https://api.freelogodesign.org/files/b29b76dc3114481cb9b0bd43c09da889/thumb/logo_200x200.png?v=637669596300000000" alt="">
         </div>
 
         <div class="nav">
@@ -30,17 +32,21 @@
             <a href="../Login/login.html">Login</a>
             <a href="../Sign Up/signup.html">Sign up</a>
         </div>
-    </div>
-    
-    <div id="container">
+    </div> -->
 
-    </div>
-
-    <div class="footer">
-        <p>Version: 1.0.1</p>
+    <div class="cofirmation_form">
+        <img src="https://api.freelogodesign.org/files/5af3c56096c14645b3dc33ccb1645b45/thumb/logo_200x200.png?v=637682602020000000" alt="">
+        <h1 class="title"> Succesfull</h1>  
+        <h2>Now you can install and play the game</h2>
+        <p>You can go back and choose more product</p>
+        <button class="back_btn">Go back to product page</button>
     </div>
 </body>
-
-<script src="shop.js"></script>
-<script src="button.js"></script>
+<script>
+    let btn = document.querySelector(".back_btn")
+    btn.addEventListener('click', goBack)
+    function goBack(){
+        window.location.href = "../Shop/shop.html"
+    }
+</script>
 </html>

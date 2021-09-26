@@ -60,12 +60,12 @@ body{
 }
 
 .logo{
-    width: 300px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
 }
 .logo img{
-    width: 300px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     cursor: pointer;
 }
 
@@ -102,10 +102,7 @@ body{
     height: 302px;
 }
 
-.info{
-    /* display: flex;
-    justify-content: space-between; */
-}
+
 
 .info h1{
     font-size: 32px;
@@ -151,13 +148,12 @@ body{
     margin-top: 50px;
     font-size: 28px;
     padding-left: 30px;
+    /* height: 15vh; */
+    display: flex;
+    align-items: center;
     height: 15vh;
 }
 
-.footer p{
-    align-items: center;
-    padding-top: 45px;
-}
 
 .btn span{
     padding-left: 10px;
