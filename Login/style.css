@@ -86,3 +86,9 @@ input[type="checkbox" i] {
 #back_btn{
     background-color: red;
 }
+
+#warn{
+    display: none;
+    color: red;
+    margin-left: 35px;
+}

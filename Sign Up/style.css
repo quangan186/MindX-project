@@ -26,7 +26,7 @@ body{
 
 .form_container img{
     text-align: center;
-    margin-left: 35px;
+    margin-left: 32px;
 }
 
 input[type = "text"], input[type=password]{
@@ -36,7 +36,7 @@ input[type = "text"], input[type=password]{
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
-    margin-left: 35px ;
+    margin-left: 32px ;
     font-family: 'Iceland', cursive;
 }
 
@@ -48,7 +48,7 @@ button {
     border: none;
     cursor: pointer;
     width: 90%;
-    margin-left: 35px ;
+    margin-left: 32px ;
     font-family: 'Iceland', cursive;
   }
   
@@ -64,11 +64,11 @@ input[type="checkbox" i] {
     margin: 3px 3px 3px 4px;
     padding: initial;
     border: initial;
-    margin-left: 35px ;
+    margin-left: 32px ;
 }
 
 .input label{
-    margin-left: 35px ;
+    margin-left: 32px ;
 }
 
 .remember_btn p{
@@ -82,4 +82,22 @@ input[type="checkbox" i] {
 
 #back_btn{
     background-color: red;
+}
+
+.warn{
+    display: none;
+    margin-left: 32px;
+    margin-bottom: 12px;
+    color: red;
+}
+
+#sex{
+    width: 90%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-left: 32px;
+    font-family: 'Iceland', cursive;
 }

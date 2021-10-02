@@ -9,34 +9,43 @@
 </head>
 <body>
     <div class="form_container">
-        <img src="https://api.freelogodesign.org/files/5af3c56096c14645b3dc33ccb1645b45/thumb/logo_200x200.png?v=637682602020000000" alt="">
+        <img src="https://api.freelogodesign.org/files/46e5e17b1d7d4cdd9cc472bd225cae47/thumb/logo_200x200.png?v=637687400900000000" alt="">
         <h1>SIGN UP</h1>
         <div class="input">
             <label>First name: </label><br>
-            <input type="text" id="fname"><br><br>
-
+            <input type="text" id="fname" required><br>
+            <p class="warn" id="1">*Required</p>
             <label>Last name: </label><br>
-            <input type="text" id="l_name"><br><br>
+            <input type="text" id="l_name" required><br>
+            <p class="warn" id="2">*Required</p>
 
             <label>Date of birth: </label><br>
-            <input type="text" id="birthday"><br><br>
+            <input type="text" id="birthday" placeholder="dd/mm/yyyy" ><br>
+            <p class="warn" id="3">*Required</p>
 
             <label>Gender: </label><br>
-            <input type="text" id="sex"><br><br>
+            <select id="sex">
+                <option>Male</option>
+                <option>Female</option>
+            </select> <br>
 
             <label>Email: </label><br>
-            <input type="text" id="email"><br><br>
+            <input type="text" id="email" ><br>
+            <p class="warn" id="5">*Required</p>
 
             <label>Password: </label><br>
-            <input type="password" id="password"><br><br>
+            <input type="password" id="password" ><br>
+            <p class="warn" id="6">*Required</p>
 
             <label>Re-type Password: </label><br>
-            <input type="password" id="password"><br><br>
+            <input type="password" id="password2" ><br>
+            <p class="warn" id="7">*Required</p>
+
         </div>
         
         <div class="remember_btn">
             <label>
-                <input type="checkbox" checked="checked" name="remember"> Remember me
+                <input type="checkbox" checked="checked" name="remember"> I agree to the terms and conditions
             </label>
 
             <button class="log_in">Create new account</button>
