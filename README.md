@@ -1,2 +1,2 @@
 # Web bán game
-Link: vfgcorporation.netlify.app
+Link: https://vfgcorporation.netlify.app/
